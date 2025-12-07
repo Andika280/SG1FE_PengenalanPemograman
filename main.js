@@ -8,9 +8,15 @@ const umur = Number(input("Masukkan Umur Kamu: "));
 // Logika Umur
 if (umur < 21) {
     const selisih = 21 - umur;
-    // Menggunakan Template Literal sesuai materi Object.js
     console.log(`Maaf ${nama}, umur kamu kurang ${selisih} tahun lagi`);
 } else {
-    // Pesan sementara sebelum logika uang dibuat
-    console.log("Umur lolos, lanjut cek uang...");
+    // Jika umur >= 21, baru kita tanya uang
+    const uang = Number(input("Masukkan Jumlah Uang: "));
+
+    // Logika Uang
+    if (uang < 500000) {
+        console.log(`Maaf ${nama}, uang kamu cuma ${uang}, datang lagi lain kali`);
+    } else {
+        console.log(`Selamat datang ${nama}`);
+    }
 }
