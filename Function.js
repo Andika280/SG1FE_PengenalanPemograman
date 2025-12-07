@@ -1,0 +1,13 @@
+// REGULAR FUNCTION & ARROW FUNCTION
+// REGULAR FUNCTION TIDAK LANGSUNG MENGEMBALIKAN OUTPUT DIRANCANG UNTUK MENYUSUN SUATU LOGIKA
+function greeting() {
+  return console.log("Halo, Selamat Pagi");
+}
+
+// ARROW FUNCTION LANGSUNG MENGEMBALIKAN OUTPUT DIRANCANG UNTUK MELAKUKAN SUATU TUGAS SECARA CEPAT
+const sapa = () => {
+  console.log("Halo Semuanya");
+};
+
+greeting()
+sapa();
