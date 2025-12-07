@@ -17,6 +17,6 @@ if (umur < 21) {
     if (uang < 500000) {
         console.log(`Maaf ${nama}, uang kamu cuma ${uang}, datang lagi lain kali`);
     } else {
-        console.log(`Selamat datang ${nama}`);
+        console.log(`Selamat datang ${nama}`) ; 
     }
 }
