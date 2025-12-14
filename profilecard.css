@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 35px 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    object-fit: cover; 
+    object-position: center top;
+    border-radius: 50%;
+    border: 4px solid #e0e0e0;
+}
+
+.name {
+    font-size: 1.25rem;
+    color: #2d3436;
+    margin-top: 5px;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.details {
+    font-size: 0.95rem;
+    color: #636e72;
+    font-weight: 500;
+}
+
+.bio {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #b2bec3;
+    font-style: italic;
+    line-height: 1.5;
+}
