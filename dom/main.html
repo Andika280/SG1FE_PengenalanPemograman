@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile & Todo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="app-container">
+      <div class="card profile-section">
+        <div class="profile-header">
+          <img src="images/profile.webp" alt="Avatar" class="avatar" />
+          <div>
+            <h2 id="name-display">Nama Saya</h2>
+            <p class="role">Frontend Developer</p>
+          </div>
+        </div>
+        <p class="bio">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
+          voluptates eius nisi iusto error, quo illo, reprehenderit eum maiores
+          facilis perspiciatis porro? Consequatur ad recusandae hic deleniti
+          blanditiis quaerat obcaecati.
+        </p>
+
+        <button id="switch-mode" class="btn btn-secondary">
+          🌙 Switch Mode
+        </button>
+      </div>
+
+      <div class="card todo-section">
+        <h3>My Tasks</h3>
+
+        <div class="filter-group">
+    <button id="sort-btn" class="btn btn-secondary" style="margin-bottom: 10px;">
+        Sort: Ascending (ID)
+    </button>
+      </div>
+
+        <div class="input-group">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Tulis tugas baru..."
+          />
+          <button id="add-btn" class="btn btn-primary">Add</button>
+        </div>
+
+        <ul id="todo-list" class="todo-list"></ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
